@@ -85,7 +85,7 @@ def chatbot_response(user_input):
     return responses.get(user_input, "I'm sorry, I don't understand that.")
 
 def main():
-    st.title("Speech-enabled Chatbot")
+    st.title("Speech-enabled Chatbot:Please ask simple questions")
 
     # Select Input Method
     input_method = st.radio("Select Input Method", ["Text", "Speech"])
